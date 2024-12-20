@@ -1,0 +1,23 @@
+/* ProfitHistogram.css */
+
+.histogram-container {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%; /* Adjust width as needed */
+    color: #0d0d0d;
+  }
+  
+  .histogram-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  

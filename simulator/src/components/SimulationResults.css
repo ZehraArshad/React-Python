@@ -1,0 +1,35 @@
+/* SimulationResults.css */
+
+.results-container {
+  text-align: center;
+}
+
+.results-container h2 {
+  margin-bottom: 20px;
+}
+
+.profit-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping items */
+  margin-top: 50px;
+}
+
+.profit-summary p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.profit-summary .profit-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Space between profit labels and values */
+}
+
+.profit-summary .profit-info span {
+  margin-left: 8px; /* Space between profit label and value */
+  font-weight: bold;
+  color: #1a1c1a;
+}
